@@ -1,6 +1,6 @@
-CREATE TABLE Productos (
+CREATE TABLE Cliente(
   id serial,
-  description VARCHAR(45) NOT NULL,
-  details VARCHAR(45) NULL,
+  Nombre VARCHAR(45) NOT NULL,
+ Direccion VARCHAR(45) NULL,
   PRIMARY KEY (id)
   );
